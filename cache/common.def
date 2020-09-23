@@ -1,0 +1,7 @@
+;; common const header file
+;; internal use ONLY
+
+#define %path% __PATH
+#define %time% __TIME
+#define %data% __DATE
+

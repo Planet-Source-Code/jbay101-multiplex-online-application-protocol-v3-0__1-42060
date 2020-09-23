@@ -1,0 +1,52 @@
+// win32 const header file
+// ported from windows.h
+
+// message box styles
+#define MB_ABORTRETRYIGNORE   0x2;
+#define MB_APPLMODAL   0x0;
+#define MB_COMPOSITE   0x2;
+#define MB_DEFAULT_DESKTOP_ONLY   0x20000;
+#define MB_DEFBUTTON1   0x0;
+#define MB_DEFBUTTON2   0x100;
+#define MB_DEFBUTTON3   0x200;
+#define MB_DEFMASK   0xF00;
+#define MB_ICONASTERISK   0x40;
+#define MB_ICONEXCLAMATION   0x30;
+#define MB_ICONHAND   0x10;
+#define MB_ICONINFORMATION   0x40;
+#define MB_ICONMASK   0xF0;
+#define MB_ICONQUESTION   0x20;
+#define MB_ICONSTOP   0x10;
+#define MB_OKCANCEL   0x1;
+#define MB_OK   0x0;
+#define MB_RETRYCANCEL   0x5;
+#define MB_SETFOREGROUND   0x10000;
+#define MB_SYSTEMMODAL   0x1000;
+#define MB_TASKMODAL   0x2000;
+#define MB_YESNOCANCEL   0x3;
+#define MB_YESNO   0x4;
+
+// show window styles
+#define SW_ERASE   0x4;
+#define SW_HIDE   0;
+#define SW_INVALIDATE   0x2;
+#define SW_MAX   10;
+#define SW_MAXIMIZE   3;
+#define SW_NORMAL   1;
+#define SW_MINIMIZE   6;
+#define SW_RESTORE   9;
+#define SW_SCROLLCHILDREN   0x1;
+#define SW_SHOW   5;
+#define SW_SHOWDEFAULT   10;
+#define SW_SHOWMAXIMIZED   3;
+#define SW_SHOWMINNOACTIVE   7;
+#define SW_SHOWMINIMIZED   2;
+#define SW_SHOWNA   8;
+#define SW_SHOWNOACTIVATE   4;
+#define SW_SHOWNORMAL   1;
+
+// window styles for setwindowlong
+#define GWL_STYLE (-16);
+#define WS_HSCROLL 0x100000;
+#define WS_VSCROLL 0x200000;
+#define WS_POPUP 0x80000000;

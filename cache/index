@@ -1,0 +1,7 @@
+;; index
+;; this contains info about
+;; the application
+
+app_name "Minesweeper.mps";
+app_type WIN32_GUI;
+app_skin "default";
