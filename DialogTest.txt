@@ -1,0 +1,38 @@
+#version 1.0;
+#section .validate {
+   validate platform "Win32";
+   validate script "VBScript"; 
+   validate script "JScript";
+}
+
+#section .link {
+   include def "common.def";
+   include def "win32.def";
+
+   interface #sys.CMath;
+   interface #sys.CLib;
+   interface #sys.Common;
+   interface #sys.Win32;
+   interface #sys.CString;
+   interface #sys.CInt;
+   interface #sys.SharedMem;
+   interface #sys.CConvert;
+   interface #sys.CFileSystem;
+   interface #sys.CFileIO;
+   interface #sys.CDebug;
+   interface #sys.CRegistry;
+   interface #sys.CForm;
+   interface #sys.CScript;
+}
+
+#section .runtime {
+   define calling_convention cdec, stdcall;
+   define param_convention VB_C_COMPATIBLE;
+   define entry "Main";
+
+}
+
+#section .code {
+   import "VBScript" {
+	CScript.Import "c:\dialog.txt"
+}

@@ -1,0 +1,28 @@
+;; skin config file
+;; only very basic functionality at the moment!!
+;; default skin (blue)
+
+
+element tilebar1 image2.bmp
+element tilebar2 image3.bmp
+element tilebar3 image1.bmp
+element border_top_left image4.bmp
+element border_left image5.bmp
+element border_bottom_left image6.bmp
+element border_bottom image8.bmp
+element border_bottom_right image7.bmp
+element border_right image9.bmp
+
+element button_close_normal CloseOFF.bmp
+element button_max_normal MaxOFF.bmp
+element button_min_normal MinOff.bmp
+element button_restore_normal RestoreOff.bmp
+
+element button_close_disabled CloseDis.bmp
+element button_max_disabled MaxDis.bmp
+element button_min_disabled MinDis.bmp
+
+element button_close_down CloseOn.bmp
+element button_max_down MaxOn.bmp
+element button_min_down MinOn.bmp
+element button_restore_down RestoreOn.bmp
